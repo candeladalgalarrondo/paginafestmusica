@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+  background-color: #dcb1e8;
+  color: black;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, hotpink, mediumslateblue);
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header h3 {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: mediumslateblue;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: black;
+}
+
+section, article {
+  background-color: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+}
+
+aside {
+  background-color: pink;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.artistas img {
+  width: 150px;      
+  height: 150px;     
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.artistas span {
+  color: green;
+}
+
+
+
+
+
+
+
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: pink;
+}
+
+th {
+  background-color: mediumslateblue;
+  color: white;
+}
+
+
+ul, ol {
+  margin: 15px auto;
+  padding-left: 40px;
+  max-width: 700px;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 8px;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+h2, h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+
+  text-align: center;
+}

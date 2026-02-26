@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+
+  color: black;
+  line-height: 1.6;
+}
+
+
+header {
+  background: linear-gradient(to right, hotpink, mediumslateblue);
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: mediumslateblue;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: black;
+}
+
+section, article {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+}
+
+
+aside {
+  background-color: pink;
+  color: black;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+
+ul {
+  list-style: circle;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+#galeria {
+  text-align: center;
+  background-color: mistyrose;
+}
+
+figure {
+  margin: 25px auto;
+  text-align: center;
+}
+
+figure img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+  transition: transform 0.3s ease;
+}
+
+figure img:hover {
+  transform: scale(1.05);
+}
+
+
+#video-local, #video-youtube, #audio {
+  text-align: center;
+}
+
+video, iframe, audio {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+#ubicacion iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#ubicacion {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+
+h2, h3 {
+  color: rgb(93, 66, 247);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
